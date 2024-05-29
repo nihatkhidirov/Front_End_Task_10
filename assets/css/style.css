@@ -1,0 +1,28 @@
+.first-part {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-rainy-weather-with-bad-weather-image_260457.jpg"); /* Replace with your image URL */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-part {
+  border: 1px solid;
+  padding: 50px;
+  border-radius: 20px;
+}
+#location-input {
+  border-radius: 20px;
+  padding: 5px;
+}
+#get-weather-btn {
+  border-radius: 20px;
+  padding: 8px;
+  cursor: pointer;
+}
+#get-weather-btn:hover {
+  transition: all 1s;
+  background-color: lightblue;
+}
